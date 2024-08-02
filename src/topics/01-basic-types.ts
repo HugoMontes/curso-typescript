@@ -34,5 +34,25 @@ console.log("Number => ", Number("abc"));
 
 //#endregion
 
+//#region STRING
+console.log("****************************************");
+console.log("****************STRING******************");
+console.log("****************************************");
+
+// Es redundante especificar el tipo si yha lo inicialisaste con un valor
+const name: string = "Juan";
+const lastName = "Peres";
+console.log("Nombre: ", name);
+console.log("Apellido: ", lastName);
+
+console.log("************CONCATENACION***************");
+console.log(name + " " + lastName);
+// Concatenar usando Template Strings o String Interpolation
+// Usar los bagtils ALT + 96
+const fullName = `Template String => ${name} ${lastName}`;
+console.log(fullName);
+
+//#endregion
+
 // Exportar el archivo
 export {};
