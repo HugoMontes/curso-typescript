@@ -74,5 +74,16 @@ console.log('Convertir texto a boolean usando doble negación !! => ', !!boolean
 
 //#endregion
 
+
+//#region DATE
+console.log("****************************************");
+console.log("****************DATE********************");
+console.log("****************************************");
+const dateNow = new Date();
+console.log('La fecha actual es: ', dateNow);
+console.log('Año: ', dateNow.getFullYear());
+
+//#endregion
+
 // Exportar el archivo
 export {};
