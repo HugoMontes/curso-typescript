@@ -54,5 +54,25 @@ console.log(fullName);
 
 //#endregion
 
+//#region BOOLEAN
+console.log("****************************************");
+console.log("****************BOOLEAN*****************");
+console.log("****************************************");
+
+const userAngular = true;
+const comparisonExpression = 5 > 2;
+
+// Es importante mensionar que en JavaScript, todas las cadenas NO vacias se consideran verdaderas
+// al convertirlas a booleanos.
+// Solo las cadenas vacias ("") se consideran falso.
+const booleanText = 'abcd';
+
+console.log('Usas Angular?: ', userAngular);
+console.log('Comparación mediante una expresión: 5 es mayor qu 2? => ', comparisonExpression);
+console.log('Convertir texto a boolean usando la función Boolean => ', Boolean(booleanText));
+console.log('Convertir texto a boolean usando doble negación !! => ', !!booleanText);
+
+//#endregion
+
 // Exportar el archivo
 export {};
